@@ -44,3 +44,6 @@ with col4:
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
+
+# To have a multi page menu at streamlit you need to create a directory named "pages" and put the new pages there.
+# The directory need, necessarily, to be at the same level of main code (the one is ran)
